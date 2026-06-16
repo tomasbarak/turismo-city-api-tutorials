@@ -1,0 +1,11 @@
+{
+  "name": "turismocity-api-examples-node",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "description": "Node examples for the Turismocity Flights API (uses built-in fetch, no deps).",
+  "scripts": {
+    "start": "node quickstart.mjs"
+  }
+}

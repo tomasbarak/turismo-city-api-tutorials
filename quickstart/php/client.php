@@ -18,7 +18,7 @@ class TurismocityClient
 
     public function __construct(?string $key = null, ?string $host = null, ?string $baseUrl = null)
     {
-        $this->host = $host ?: (getenv('RAPIDAPI_HOST') ?: 'turismocity-flights.p.rapidapi.com');
+        $this->host = $host ?: (getenv('RAPIDAPI_HOST') ?: 'turismocity-api.p.rapidapi.com');
         $this->key = $key ?: (getenv('RAPIDAPI_KEY') ?: '');
         $this->baseUrl = $baseUrl ?: (getenv('BASE_URL') ?: "https://{$this->host}");
     }

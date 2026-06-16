@@ -8,7 +8,7 @@
 
 export class TurismocityClient {
   constructor(opts = {}) {
-    this.host = opts.host ?? process.env.RAPIDAPI_HOST ?? "turismocity-flights.p.rapidapi.com";
+    this.host = opts.host ?? process.env.RAPIDAPI_HOST ?? "turismocity-api.p.rapidapi.com";
     this.key = opts.key ?? process.env.RAPIDAPI_KEY ?? "";
     this.baseUrl = opts.baseUrl ?? process.env.BASE_URL ?? `https://${this.host}`;
   }

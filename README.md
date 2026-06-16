@@ -17,14 +17,14 @@ You call the API **through the RapidAPI gateway**. Every request needs two heade
 | Header | Value |
 |---|---|
 | `X-RapidAPI-Key` | your key from the RapidAPI dashboard |
-| `X-RapidAPI-Host` | your API's host, e.g. `turismocity-flights.p.rapidapi.com` |
+| `X-RapidAPI-Host` | your API's host, e.g. `turismocity-api.p.rapidapi.com` |
 
 The base URL is `https://<X-RapidAPI-Host>`. All examples read these from environment
 variables so you never hard-code secrets:
 
 ```bash
 export RAPIDAPI_KEY="your-key-here"
-export RAPIDAPI_HOST="turismocity-flights.p.rapidapi.com"
+export RAPIDAPI_HOST="turismocity-api.p.rapidapi.com"
 ```
 
 > Replace the host with the exact one shown on your RapidAPI **Endpoints** tab.

@@ -16,7 +16,7 @@ import requests
 
 class TurismocityClient:
     def __init__(self, key: str | None = None, host: str | None = None, base_url: str | None = None):
-        self.host = host or os.getenv("RAPIDAPI_HOST", "turismocity-flights.p.rapidapi.com")
+        self.host = host or os.getenv("RAPIDAPI_HOST", "turismocity-api.p.rapidapi.com")
         self.key = key or os.getenv("RAPIDAPI_KEY", "")
         self.base_url = base_url or os.getenv("BASE_URL") or f"https://{self.host}"
         self.session = requests.Session()

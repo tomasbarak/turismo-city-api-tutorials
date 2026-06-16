@@ -4,7 +4,7 @@ Set your credentials once:
 
 ```bash
 export RAPIDAPI_KEY="your-key-here"
-export RAPIDAPI_HOST="turismocity-flights.p.rapidapi.com"
+export RAPIDAPI_HOST="turismocity-api.p.rapidapi.com"
 ```
 
 A reusable helper (optional) — every call needs the two headers:

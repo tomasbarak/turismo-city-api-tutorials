@@ -152,9 +152,6 @@ cd quickstart/python && pip install -r requirements.txt && python quickstart.py
 cd quickstart/php && php quickstart.php
 ```
 
-Every example also accepts `BASE_URL` to point at a non-RapidAPI deployment (e.g. a direct
-URL during development): `BASE_URL=https://your-app.up.railway.app node quickstart.mjs`.
-
 ## License
 
 MIT — see [LICENSE](LICENSE). Not affiliated with Turismocity or any airline/agency.
